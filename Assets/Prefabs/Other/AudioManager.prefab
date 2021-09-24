@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2459585416034123759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2459585416034123753}
+  - component: {fileID: 2459585416034123758}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2459585416034123753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2459585416034123759}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2459585416034123758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2459585416034123759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8f504f010ef24847a3347dfd681b308, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sounds:
+  - Name: Select
+    Clip: {fileID: 8300000, guid: 53296b559e4267b43beab8f82915f860, type: 3}
+    Volume: 0.2
+    pitch: 0.8
+    Output: {fileID: 24300002, guid: c28ce9973795bd64abc1c926515f08ff, type: 2}
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: hit
+    Clip: {fileID: 8300000, guid: 89d38430b4ac52b40a8e2396eb62e707, type: 3}
+    Volume: 0.2
+    pitch: 0.8
+    Output: {fileID: 24300002, guid: c28ce9973795bd64abc1c926515f08ff, type: 2}
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: pistol
+    Clip: {fileID: 8300000, guid: 956bbf0759baf9d48a4cee79924666a4, type: 3}
+    Volume: 0.2
+    pitch: 0.8
+    Output: {fileID: 24300002, guid: c28ce9973795bd64abc1c926515f08ff, type: 2}
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: grenade
+    Clip: {fileID: 8300000, guid: 556f2b887369a1f40bf1d49adcc78bce, type: 3}
+    Volume: 0.2
+    pitch: 0.8
+    Output: {fileID: 24300002, guid: c28ce9973795bd64abc1c926515f08ff, type: 2}
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: shotgun
+    Clip: {fileID: 8300000, guid: 0fcd82b70a733bc4b9e9e0b7e0876890, type: 3}
+    Volume: 0.2
+    pitch: 0.8
+    Output: {fileID: 24300002, guid: c28ce9973795bd64abc1c926515f08ff, type: 2}
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: sniper
+    Clip: {fileID: 8300000, guid: 64c3d4d1999847c468f73620cfc5797c, type: 3}
+    Volume: 0.2
+    pitch: 0.8
+    Output: {fileID: 24300002, guid: c28ce9973795bd64abc1c926515f08ff, type: 2}
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: lightSaber
+    Clip: {fileID: 8300000, guid: c3b1b79ba98ca7f45a7a259440675570, type: 3}
+    Volume: 0.2
+    pitch: 0.8
+    Output: {fileID: 24300002, guid: c28ce9973795bd64abc1c926515f08ff, type: 2}
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: sword
+    Clip: {fileID: 8300000, guid: 26a893db8900f3744a1a852309a329b7, type: 3}
+    Volume: 0.2
+    pitch: 0.8
+    Output: {fileID: 24300002, guid: c28ce9973795bd64abc1c926515f08ff, type: 2}
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: dead
+    Clip: {fileID: 8300000, guid: 444ef2e209e739a4483155b505ac1162, type: 3}
+    Volume: 0.2
+    pitch: 0.8
+    Output: {fileID: 24300002, guid: c28ce9973795bd64abc1c926515f08ff, type: 2}
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: stickyBomb
+    Clip: {fileID: 8300000, guid: e6372a2ec545ed24eb9732555c8a97db, type: 3}
+    Volume: 0.2
+    pitch: 0.8
+    Output: {fileID: 24300002, guid: c28ce9973795bd64abc1c926515f08ff, type: 2}
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: hit
+    Clip: {fileID: 8300000, guid: e6372a2ec545ed24eb9732555c8a97db, type: 3}
+    Volume: 0.2
+    pitch: 0.8
+    Output: {fileID: 24300002, guid: c28ce9973795bd64abc1c926515f08ff, type: 2}
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: weaponGround
+    Clip: {fileID: 8300000, guid: f6c1ccfad5fc86d4bb80e00a8b0c3eb2, type: 3}
+    Volume: 0.25
+    pitch: 0.9
+    Output: {fileID: 24300002, guid: c28ce9973795bd64abc1c926515f08ff, type: 2}
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: jump
+    Clip: {fileID: 8300000, guid: 4d1061f8d44dcbc4cade5385ce31e58d, type: 3}
+    Volume: 0.1
+    pitch: 1.1
+    Output: {fileID: 24300002, guid: c28ce9973795bd64abc1c926515f08ff, type: 2}
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: pickUpGun
+    Clip: {fileID: 8300000, guid: 57cb8d2e8c36f3b4b9deb407de136a54, type: 3}
+    Volume: 0.15
+    pitch: 0.9
+    Output: {fileID: 24300002, guid: c28ce9973795bd64abc1c926515f08ff, type: 2}
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: throwWeapon
+    Clip: {fileID: 8300000, guid: 551fbcc2167670f40a71ccd600d923c8, type: 3}
+    Volume: 0.15
+    pitch: 0.7
+    Output: {fileID: 24300002, guid: c28ce9973795bd64abc1c926515f08ff, type: 2}
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: endScene
+    Clip: {fileID: 8300000, guid: be75f55dae65c1546901f703b641609f, type: 3}
+    Volume: 0.5
+    pitch: 1
+    Output: {fileID: 24300002, guid: c28ce9973795bd64abc1c926515f08ff, type: 2}
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: startScene
+    Clip: {fileID: 8300000, guid: 76f36e817f3954e4586f5325dec99d4c, type: 3}
+    Volume: 0.5
+    pitch: 1
+    Output: {fileID: 24300002, guid: c28ce9973795bd64abc1c926515f08ff, type: 2}
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: menuTheme
+    Clip: {fileID: 8300000, guid: c34f5844bacf4ae4389e5aeda8aefb90, type: 3}
+    Volume: 0.4
+    pitch: 1
+    Output: {fileID: 24300002, guid: 7ce3a5b7b2c925b48a3a92ba13003653, type: 2}
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: mainTheme
+    Clip: {fileID: 8300000, guid: 0aff3c9aa0ce2a94c9f545b93cd70b52, type: 3}
+    Volume: 0.4
+    pitch: 1
+    Output: {fileID: 24300002, guid: 7ce3a5b7b2c925b48a3a92ba13003653, type: 2}
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: endTheme
+    Clip: {fileID: 8300000, guid: 0e03ffb3c6c282a4eba24f0fe6dc8c14, type: 3}
+    Volume: 0.4
+    pitch: 1
+    Output: {fileID: 24300002, guid: 7ce3a5b7b2c925b48a3a92ba13003653, type: 2}
+    Loop: 0
+    Source: {fileID: 0}
