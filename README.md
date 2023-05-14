@@ -1,5 +1,5 @@
 # AmazingOctopusesBattle
-## Un videojuego multijugador local creado en Unity. Inspirado por Duck Game.*
+## Un videojuego multijugador local creado en Unity. Inspirado por Duck Game.
 
 AmazingOctopusesBattle es un videojuego 2D en pixel art que se juega entre 2 personas en un mismo teclado.
 
@@ -25,7 +25,7 @@ El juego cuenta con armas variadas:
 * Granadas (normales y pegajosas) 
 * Francotiradores
 
-### Como se gana
+### Cómo se gana
 Un nivel o mapa se gana cuando se elimina al otro jugador. En la parte de abajo aparecen 3 corazones que indican la salud de cada pulpo.
 
 Al eliminar a un jugador, el nivel se termina y se nombra al ganador. Después se pasa al siguiente nivel y así sucesivamente.
