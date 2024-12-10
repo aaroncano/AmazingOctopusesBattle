@@ -47,4 +47,5 @@ The octopuses have the ability to double jump. You can stick to walls and move v
 ![imagen](https://github.com/user-attachments/assets/97a48fd1-2333-4e47-82de-33053826eadf)
 
 ## Credits
-Aarón Cano: Design, Code, UI, Sprites, Sounds, and Animations
+Design, Code, UI, Sprites, Sounds, and Animations - Aarón Cano
+Music - Komiku & sawsquarenoise (credits are provided within the game)
