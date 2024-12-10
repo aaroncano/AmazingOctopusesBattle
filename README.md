@@ -5,7 +5,7 @@ AmazingOctopusesBattle is a two-player pixel art video game designed for shared 
 The project is structured in a typical Unity game format, with directories organized by asset types and subtypes, including prefabs, audio, scripts, animations, UI, particles, sprites, and more. It employs various design patterns and techniques such as dependency injection, inheritance, singleton, and custom data structures designed to transfer data between screens and classes.
 
 ## Gameplay
-The aim of the game is to eliminate the octopus controlled by the other player. Players have access to various movements and an arsenal of weapons scattered across the map.
+The objective of the game is to eliminate the octopus controlled by the other player. Players have access to various movements and an arsenal of weapons scattered across the map.
 
 ![imagen](https://github.com/user-attachments/assets/4c46f890-d8b1-4fba-ac3e-6337fd059d9d)
 
